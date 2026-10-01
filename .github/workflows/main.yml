@@ -1,0 +1,13 @@
+name: Maleeha
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - names: greetings
+        run: echo "Hello From Maleeha"
